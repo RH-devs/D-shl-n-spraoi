@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Lato sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background-color: #fff; 
+    overflow: scroll;
+}
+/*Logo and headings*/
+
+#logo {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-size: 280%;
+}
+#logo a{
+    text-decoration: none;
+    color: #B24C63;
+}
+
+h1 {
+    font-family: Oswald sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+h2 {
+    font-family: Oswald sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    
+}
+
+/*Login Section*/
+.homepage-container{
+    background-color: #3EEA7D;
+    width: 75%;
+    height: 86vh;
+    box-sizing: border-box;
+    border: 8px #3EEA7D solid;
+    max-height: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    border-radius: 10px;
+}
+#login-section {
+    align-items: center;
+    color: #0E2239;
+    font-size: 100%;
+}
+
+#submit-btn{
+       border-radius: 5px;
+       padding: 0.5rem;
+       width: 120px;
+       font-size: 15px;
+       font-family: inherit;
+       color: #0E2239;
+}
+
+#username{
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 15px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.play-Btn{
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #3EEA7D;
+    font-family: Oswald sans-serif;
+    padding: 0.6rem;
+    background-color: #0E2239;
+}
