@@ -12,15 +12,16 @@ body {
     min-height: 110vh;
 }
 
-#logo {
-
-    font-size: 250%;
+.logo {
     text-align: center;
-    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+
 }
-#logo a{
+.logo a{
     text-decoration: none;
-    color: #B24C63;
+    color: rgb(136, 0, 21);
     
 }
 .question-container {
