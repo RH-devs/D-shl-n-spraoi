@@ -44,11 +44,15 @@ body {
         border: 1px solid;
         }
      
-    .questionBar {
-        background-color:  #559CE3;
+    #questionBar {
+        background-color: #559CE3;
         color:#3a3a3a;
         border-radius:5px;
         padding: 10px 15px;
+        }
+        
+        h2 {
+            text-align: center;
         }
        
 .answersBox {
