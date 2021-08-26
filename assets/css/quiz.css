@@ -31,4 +31,37 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #666;
 }
+/*Scores and Progress bar section*/
+.header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    }
 
+    .scoreBox, .progressBar{
+        border-radius: 100px;
+        padding: 10px 15px;
+        border: 1px solid;
+        }
+     
+    .questionBar {
+        background-color:  #559CE3;
+        color:#3a3a3a;
+        border-radius:5px;
+        padding: 10px 15px;
+        }
+       
+.answersBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+    grid-gap: 15px;
+    }
+    
+    .answersBox span{
+    background-color:#559CE3;
+    color: #3a3a3a;;
+    border-radius:5px;
+    border:1px solid; 
+    padding: 15px;
+    }
