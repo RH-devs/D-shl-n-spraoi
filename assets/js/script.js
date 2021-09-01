@@ -1,5 +1,5 @@
 function main() {
-    return 'Are you ready?';
+    return 'Ready to learn?';
 }
 
 main();
@@ -15,6 +15,8 @@ main();
     let availableQuestions = [];
     let collectingAnswers = true;
     let score = 0;
+
+    
     
     /**
      *Declaring variables for the quiz game

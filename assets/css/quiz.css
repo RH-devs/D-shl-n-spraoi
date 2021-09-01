@@ -38,22 +38,28 @@ body {
     justify-content: space-between;
     }
 
-    .scoreBox, .progressBar{
+    .scoreBox {
         border-radius: 100px;
         padding: 10px 15px;
-        border: 1px solid;
+        border: 1px solid #559CE3;
         }
      
+    .progressBar{
+        border-radius: 100px;
+        padding: 8px 12px;
+        border: 0.2rem solid rgb(76, 145, 12);
+        overflow: hidden;
+            }
+
     #questionBar {
         background-color: #559CE3;
         color:#3a3a3a;
         border-radius:5px;
         padding: 10px 15px;
+        text-align: center;
         }
         
-        h2 {
-            text-align: center;
-        }
+       
        
 .answersBox {
     display: grid;
@@ -90,4 +96,12 @@ body {
         button a {
             text-decoration: none;
             color: #fff;
+        }
+
+        .right {
+            background:linear-gradient (32deg rgb(101, 224, 19));
+        }
+
+        .wrong {
+            background:linear-gradient (32deg rgb(136, 0, 21, 1));
         }
