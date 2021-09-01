@@ -19,7 +19,12 @@
             <a href="index.html">Dúshlán Spraoi</a>
         </h1>
         <div class="header">
-            <div class="progressBar">Progress</div>
+            <div class="header-name">
+            <p id="progressText">Question</p>
+            <div class="progressBar">
+                <div id ="progressBarFull"></div>
+            </div>
+            </div>
             <div class="scoreBox">Score : 0</div>
         </div>
         <div id ="questionBar">
@@ -27,10 +32,10 @@
         </div>
 
         <div class="answersBox">
-            <span class="Option">Cailin</span>
-            <span class="Option">Fear</span>
-            <span class="Option">Buachallin</span>
-            <span class="Option">Bean</span>
+            <span class="Option" data-number='1'>Cailin</span>
+            <span class="Option" data-number='2'>Fear</span>
+            <span class="Option" data-number='3'>Buachallin</span>
+            <span class="Option" data-number='4'>Bean</span>
         </div>
         <div class="navButtons">
             <button class="next-Btn" id="nextBtn">Next
@@ -44,7 +49,7 @@
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-
+    <script src="assets/js/quiz.js"></script>
 
 </body>
 
