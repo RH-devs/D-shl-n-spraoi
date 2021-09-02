@@ -20,23 +20,40 @@
             <img src="assets/images/logo-img.jpg" alt="abtract-background" width="100" height="50" style="border:0;">
         </div>
         <div class="username-side">
+            <div id="home">
+            <div id="welcome"></div>
+            <form id="login-Area">
             <h1>Ready to Challenge your Irish Knowledge?</h1>
             <br>
             <p>Create a username below to proceed.</p>
             <br>
-            <form action="welcome.html" method="GET">
-                <input type="text" id="username" name="username" placeholder="Input your name" required>
-                <input type="submit" class="submit-Btn" value="Submit">
-                <a href="quiz.html" button id="playBtn" class="play-Btn">Play<i class="far fa-play-circle" aria-hidden="true"></i></a>
+            <input type="text" id="username" name="username" placeholder="Input your name" required>
+            <input type="submit" class="submit-Btn" value="Submit">
             </form>
+            </div>
+            <a href="quiz.html" button id="playBtn" class="play-Btn">Play<i class="far fa-play-circle" aria-hidden="true"></i></a>
         </div> 
     </div>
     </div>
-    <!-- Font awesome script -->
+    
+    <script>
+        let loginArea = document.getElementById('login-Area');
+        
+        loginArea.addEventListener('submit', function(event) {
+          event.preventDefault();
+          let userName = document.getElementById('username').value; 
+          
+          let html = `
+          <h1>Welcome ${userName}!!! Are you ready to challenge yourself?</h1>
+          ` ; 
+          let welcomeDiv = document.getElementById('welcome');
+          welcomeDiv.innerHTML = html;
+          loginArea.style.display = "none";
+        })   
+     </script> 
+     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-  
-    
 </body>
 
 </html>

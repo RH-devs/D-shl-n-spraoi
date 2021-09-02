@@ -121,3 +121,8 @@ body {
     transition: transform, 150ms;
     transform: scale(1.03);
 }
+
+#welcome {
+    text-align: center;
+    padding: 30px 30px;
+}
