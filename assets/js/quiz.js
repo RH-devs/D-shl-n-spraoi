@@ -3,10 +3,10 @@
 selector or group of selectors specified and would return null if no match is seen.
  */
 let question = document.querySelector('#question');
-let options = Array.from(document.querySelectorAll('.Option'));
+let options = Array.from(document.querySelectorAll('.optionTextDisplay'));
 let progressText = document.querySelector('#progressText');
 let scoreText = document.querySelector('#score');
-let progressBarFull = document.querySelector('#progressBarFull');
+let fullProgressBar = document.querySelector('#fullProgressBar');
 
 let rightCredit = document.querySelector('#rightCredit');
 let wrongCredit = document.querySelector('#wrongCredit');
@@ -144,3 +144,13 @@ fullProgressBar.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 const randomQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
       currentQuestion = availableQuestions[randomQuestionIndex]; 
       question.innerText = currentQuestion.question;
+
+      options.forEach(option => {
+          const number = option.dataset['number'];
+          option.innerText = currentQuestion['option' + number];
+      });
+  
+      availableQuestions.splice(randomQuestionIndex, 1);
+      receivingAnswers = true;
+// the function for getNewQuestion ends here.
+      

@@ -89,6 +89,10 @@ body {
             transform: scale(1.03);
         }
 
+     .optionTextDisplay {
+         font-family: 'Lato' sans-serif;
+     }   
+
     .navButtons {
         display:flex;
         justify-content: center;
