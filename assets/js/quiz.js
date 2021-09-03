@@ -155,15 +155,23 @@ const randomQuestionIndex = Math.floor(Math.random() * availableQuestions.length
 // the function for getNewQuestion ends here.
 
 options.forEach(option => {
-option.addEventListener('click', e => {
-if (!receiveAnswers) return;
-         receiveAnswers = false;
-         const selectedOption = e.target;
-         const selectedResult = selectedOption.dataset['number'];
- 
-         let optionToApply;
-         if (selectedResult == currentQuestion.correctAnswer) {
-             optionToApply = 'rightAnswer';
-         } else {
-             optionToApply = 'wrongAnswer';
-         }
+     option.addEventListener('click', e => {
+     if (!receivingAnswers) return;
+          receivingAnswers = false;
+          const selectedOption = e.target;
+          const selectedResult = selectedOption.dataset['number'];
+      
+          let optionToApply;
+     if (selectedResult == currentQuestion.correctAnswer) {
+               optionToApply = 'rightOption';
+          } else {
+                  optionToApply = 'wrongOption';
+          }
+          let finalScoreCounter = 0;
+     if (optionToApply === 'rightAnswer') {
+          incrementScore(SCORE_POINTS);
+          finalScoreCounter += score;
+          } else {
+          rightCredit.innerText = ``;
+          finalScoreCounter += score;
+              }         

@@ -116,11 +116,11 @@ body {
             color: #fff;
         }
 
-        .rightoption {
-            background:linear-gradient (32deg rgb(101, 224, 19));
+        .rightOption {
+            background:linear-gradient (32deg rgb(44, 109, 1));
         }
 
-        .wrongoption {
+        .wrongOption {
             background:linear-gradient (32deg rgb(136, 0, 21, 1));
         }
         #rightCredit, #wrongCredit {
