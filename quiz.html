@@ -14,22 +14,23 @@
 
 <body>
     <!--The Question and answers sections-->
-        <h1 class="logo">
-            <a href="index.html">Dúshlán Spraoi</a>
-        </h1>
+        
         <div class="questionContainer">
+            <h1 class="logo">
+                <a href="index.html">Dúshlán Spraoi</a>
+            </h1>
         <div id="quiz">
         <div id="headerdisplay">
         <div class="headerdisplay-item">
-        <p id="progressText" class="headerdisplay-pfix">
+        <p id="progressText" class="headerdisplay-intro">
         Question
         </p>
-        <div id="progressLevel">
-        <div id="progressLevelFull"></div>
+        <div id="progressBar">
+        <div id="fullprogressBar"></div>
         </div>
         </div>
         <div class="headerdisplay-item">
-        <p class="headerdisplay-pfix">
+        <p class="headerdisplay-intro">
         Score
         </p>
         <h1 class="headerdisplay-main-text" id="score">
@@ -40,20 +41,20 @@
         <h3 id="rightCredit"></h3>
         <h3 id="wrongCredit"></h3>
         <h2 id="question"></h2>
-        <div class="option-container">
-        <p class="option-pfix">A</p>
+        <div class="option-container" id="optionContainer1">
+        <p class="option-intro">A</p>
         <p class="option-text" data-number="1">Option 1</p>
         </div>
-        <div class="option-container">
-        <p class="option-pfix">B</p>
+        <div class="option-container" id="optionContainer2">
+        <p class="option-intro">B</p>
         <p class="option-text" data-number="2">Option 2</p>
         </div>
-        <div class="option-container">
-        <p class="option-pfix">C</p>
+        <div class="option-container" id="optionContainer3">
+        <p class="option-intro">C</p>
         <p class="option-text" data-number="3">Option 3</p>
         </div>
         <div class="option-container" id="optionContainer4">
-        <p class="option-pfix">D</p>
+        <p class="option-intro">D</p>
         <p class="option-text" data-number="4">Option 4</p>
         </div>
         </div>
