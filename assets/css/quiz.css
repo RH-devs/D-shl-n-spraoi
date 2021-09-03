@@ -24,7 +24,7 @@ body {
     color: rgb(136, 0, 21);
     
 }
-.quizContainer {
+.questionContainer {
     width: 58rem;
     min-height: 30rem;
     padding: 70px 80px;

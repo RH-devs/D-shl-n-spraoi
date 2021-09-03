@@ -1,6 +1,6 @@
 /**
- * The document.querySelector() & document.querySelectorAll() returns the first element within the document that matches the 
-specified selector or group of selectors. They both return null if no matches are found.
+ * The document.querySelector() & document.querySelectorAll() gets back the first element in the document which matches the 
+selector or group of selectors specified and would return null if no match is seen.
  */
 let question = document.querySelector('#question');
 let options = Array.from(document.querySelectorAll('.Option'));
