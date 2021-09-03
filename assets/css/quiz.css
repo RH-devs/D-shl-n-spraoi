@@ -52,7 +52,7 @@ body {
         border: 0.2rem solid rgb(76, 145, 12);
         overflow: hidden;
             }
-     #fullProgessBar {
+     #fullProgressBar {
          height: 100%;
          width: 0%;
          background: rgb(76, 145, 12);

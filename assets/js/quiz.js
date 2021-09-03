@@ -131,3 +131,9 @@ function getNewQuestion() {
          localStorage.setItem('mostRecentScore', score);
      }
 }
+
+/** Code below states the questionCounter increment and message display of question number updates 
+ * following user progression through the questions*/
+questionCounter++;
+progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+fullProgressBar.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
