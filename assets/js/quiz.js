@@ -17,7 +17,7 @@ let questionCounter = 0;
 let score = 0;
 let receivingAnswers = true;
 
-let myQuestions = [
+let theQuestions = [
     {
  question: "What is a woman called?",
             Option1:'Cailin',
@@ -107,3 +107,13 @@ let myQuestions = [
             correctAnswer: 2,
  }
  ];
+const MAX_QUESTIONS = 10;
+const SCORE_POINTS = 100;
+let totalScoreofPercentGrade =(SCORE_POINTS * MAX_QUESTIONS);
+
+function startQuiz() {
+     questionCounter = 1;
+     score = 0;
+     availableQuestions = [...theQuestions];
+     getNewQuestion();
+}
