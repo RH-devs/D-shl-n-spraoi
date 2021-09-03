@@ -17,6 +17,7 @@ let questionCounter = 0;
 let score = 0;
 let receivingAnswers = true;
 
+//Questions for the quiz
 let theQuestions = [
     {
  question: "What is a woman called?",
@@ -107,6 +108,7 @@ let theQuestions = [
             correctAnswer: 2,
  }
  ];
+//Code below shows the maximun number of questions for the quiz and the score points per question. 
 const MAX_QUESTIONS = 10;
 const SCORE_POINTS = 100;
 let totalScoreofPercentGrade =(SCORE_POINTS * MAX_QUESTIONS);
@@ -137,3 +139,8 @@ function getNewQuestion() {
 questionCounter++;
 progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
 fullProgressBar.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
+
+/** Code below will help generate questions randomly and can also generate questions in sequential order*/
+const randomQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
+      currentQuestion = availableQuestions[randomQuestionIndex]; 
+      question.innerText = currentQuestion.question;
