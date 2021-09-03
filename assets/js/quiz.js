@@ -112,8 +112,22 @@ const SCORE_POINTS = 100;
 let totalScoreofPercentGrade =(SCORE_POINTS * MAX_QUESTIONS);
 
 function startQuiz() {
-     questionCounter = 1;
+     questionCounter = -1;
      score = 0;
      availableQuestions = [...theQuestions];
      getNewQuestion();
+}
+
+/**
+ * The 'if' statement in the function below will keep track of the score generated from playing the Quiz, 
+*  should there be no more question to be answered or the counter for question is higher than the maximum number of questions, 
+ * then the local storage takes these 2 arguments which 'mostRecentScore' and 'score' which are strings that specifies the name of the keys
+ * to be set for the value of. The 'score' variable also calls the setItem() to set this value for future use.
+ */
+
+// getNewQuestion function starts
+function getNewQuestion() { 
+     if (availableQuestions.length === 0 || questionCounter === MAX_QUESTIONS) {
+         localStorage.setItem('mostRecentScore', score);
+     }
 }
