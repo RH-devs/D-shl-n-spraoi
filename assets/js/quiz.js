@@ -153,4 +153,17 @@ const randomQuestionIndex = Math.floor(Math.random() * availableQuestions.length
       availableQuestions.splice(randomQuestionIndex, 1);
       receivingAnswers = true;
 // the function for getNewQuestion ends here.
-      
+
+options.forEach(option => {
+option.addEventListener('click', e => {
+if (!receiveAnswers) return;
+         receiveAnswers = false;
+         const selectedOption = e.target;
+         const selectedResult = selectedOption.dataset['number'];
+ 
+         let optionToApply;
+         if (selectedResult == currentQuestion.correctAnswer) {
+             optionToApply = 'rightAnswer';
+         } else {
+             optionToApply = 'wrongAnswer';
+         }
