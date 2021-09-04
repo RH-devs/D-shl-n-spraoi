@@ -41,7 +41,7 @@ let theQuestions = [
              option2:'Pairc',
              option3:'Staisiun na NGardai',
              option4:'Osipdeal',
-             correctAnswer: 2,
+             correctAnswer: 3,
   },
   {
   question: 'What is a "bus" known as?',
@@ -124,6 +124,7 @@ function startQuiz() {
 function getNewQuestion() { // getNewQuestion function starts
 	if (availableQuestions.length === 0 || questionCounter === MAX_QUESTIONS) {
 		localStorage.setItem('mostRecentScore', score);
+          return window.location.assign('/result.html')
 	}
 
 	/** Code below states the questionCounter increment and message display of question number updates 
