@@ -60,7 +60,6 @@ body {
 
      /*Question and Option sections*/
     #question {
-        background-color: #559CE3;
         color:#3a3a3a;
         border-radius:5px;
         padding: 10px 15px;
@@ -75,7 +74,6 @@ body {
     }
     
     .option-container {
-    background-color:#559CE3;
     color: #3a3a3a;
     border-radius:5px;
     border:1px solid; 
@@ -89,7 +87,7 @@ body {
             transform: scale(1.03);
         }
 
-     .optionTextDisplay {
+     .answer-text {
          font-family: 'Lato' sans-serif;
      }   
 
@@ -117,14 +115,13 @@ body {
         }
 
         .rightOption {
-            background:linear-gradient (32deg rgb(44, 109, 1));
+            background: rgb(44, 109, 1);
+        }
+        .wrongOption {
+            background:rgba(136, 0, 21, 1);
         }
 
-        .wrongOption {
-            background:linear-gradient (32deg rgb(136, 0, 21, 1));
-        }
-        #rightCredit, #wrongCredit {
-            font-style: italic;
+        #goodCredit, #badCredit {
             margin-top: 1.5rem;
             font-family: "Lato", sans-serif;
             font-weight: bold;
