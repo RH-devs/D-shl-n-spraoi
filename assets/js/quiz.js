@@ -164,11 +164,7 @@ options.forEach(option => {
 
           if (optionToApply === 'rightOption') {
                     incrementScore(SCORE_POINTS);
-                    finalScoreCounter += score;
-               } else {
-                goodCredit.innerText = ``;
-              finalScoreCounter += score;
-              } 
+               }
           
 
 		}, 1000);
