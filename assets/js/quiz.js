@@ -4,9 +4,6 @@ let progressText = document.querySelector('#progressText');
 let scoreText = document.querySelector('#score');
 let fullProgressBar = document.querySelector('#fullProgressBar');
 
-let goodCredit = document.querySelector('#goodCredit');
-let badCredit = document.querySelector('#badCredit');
-
 let currentQuestion = {};
 let availableQuestions = [];
 let questionCounter = 0;
@@ -145,7 +142,8 @@ function getNewQuestion() { // getNewQuestion function starts
 
 	availableQuestions.splice(randomQuestionIndex, 1);
 	receivingAnswers = true;
-} // getNewQuestion function ends
+} 
+// getNewQuestion function ends
 
 
 options.forEach(option => {
@@ -166,8 +164,12 @@ options.forEach(option => {
 
           if (optionToApply === 'rightOption') {
                     incrementScore(SCORE_POINTS);
-          }
-		
+                    finalScoreCounter += score;
+               } else {
+                goodCredit.innerText = ``;
+              finalScoreCounter += score;
+              } 
+          
 
 		}, 1000);
 
