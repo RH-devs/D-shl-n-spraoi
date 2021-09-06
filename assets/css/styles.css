@@ -15,10 +15,15 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    display: flex;
+    
 }
-
-/*Logo and Login Section*/
+/*Home section*/
+.homepage {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-radius: 20px;
+}
+/*Logo and Login Area*/
 .homepage-container {
     width: 80%;
     height: auto;
@@ -34,6 +39,7 @@ body {
     width: 100%;
     height: auto;
     flex: 50%;
+    padding: 30px;
 }
 
 .logo-side img {
@@ -184,23 +190,32 @@ button a {
 /*Footer Section*/
 
 footer {
-        display: flex;
-        margin: 0 auto;
-        padding: 0;
-        list-style: none;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-between;
-        font-family: "Lato", sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #3a3a3a;   
-    }
+    background-color: #f59e9e;
+    color: #252525;
+    padding-top: 30px;
+}
 
-    footer p {
-            padding: 10px 10px;
-            font-size: 150%;
-            text-align: center;
-        }
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia li {
+
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.socialmedia i {
+    font-size: 300%;
+    padding: 10px 10px;
+    color: #252525;
+}
+
+#copyright {
+    padding: 10px 10px;
+    font-size: 150%;
+    text-align: center;
+}
 
 
