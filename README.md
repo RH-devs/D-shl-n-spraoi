@@ -34,8 +34,43 @@ __Design__
 I used a shade of white as the body background color and the shade of burgundy, black & blue for texts and buttons. The colors were selected from a collage using Coolors.
 
  * Imagery
- 
+
 There isn't much images in the quiz except for the image logo that was used alongside the name of the quiz game on the Homepage and icon used on the result page for feedback message based on the user's score.
 
+## Features
+ This section shows all existing features created to make the website function.
+
+__Existing Features__
+
+* Navigation
+  * The site will feature three pages which includes the homepage, quiz page and the result/performance page. 
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
+ 
+
+ADD SCREENSHOT OF THE LOGO AND NAVIGATION BARS
+* The landing page
+
+  * The landing includes image of Quiz logo, option to create a username and a play button.
+  * This section allows the visitor to register as a first-time user or play the quiz    without registering as a user.
+  * As first time user that signs up, a personalized welcome message is displayed before proceeding to play the quiz.
+
+SHARE MOCK UP OF THREE COLUMNS
+
+* The Footer
+
+  * This section includes links to the relevant social media sites for Dushlan Spraoi and users will be able to open the links to a new tab for easy navigation.
+  * The section also encourages the users to get connected via social media.
+
+   SHOW THE SOCIAL MEDIA ICONS
+
+* Quiz Page
+
+  * The quiz page consists of ten (10) questions and four (4) options and will display a question to the user at a time. It would display the next question immediately the user selects an option.
+  * This section is valuable to the user as he/she will be able to easily a response color indicator notifying him/her that the option selected is right or wrong. For wrong answers, the indicator shows a shade of red color while it shows a shade of green color if the answer is right.
+  * A progress bar styled using a shade of green is displayed at the top left alongside the question counter while the score styled using a shade of black is shown on the top right as user progressing with the quiz.
+
+* Result/Performance Page
+
+   * This page will allow the user to see their total score. 
 
 
