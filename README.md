@@ -73,4 +73,29 @@ SHARE MOCK UP OF THREE COLUMNS
 
    * This page will allow the user to see their total score. 
 
+## Future Enhancements
+
+__Creating profiles for registered users__
+
+* This feature will help users document and track their progress from beginners to intermediate level to high-level proficiency journey once they are registered on the website. Introducing this section will allow users be able to document their scores, progress on learning the Irish language. The impact of this will enhance user experience.
+
+__Special Effects__
+
+* These special effects (a sprinkle of confetti) will be created on the congratulatory message for a first time user who hits the 1000th score on the Quiz and also for any user moving up to the next profile (e.g. from beginner to Intermediate level).
+
+## Testing
+
+For testing, I tried take it in two dimensions in testing the site. The first stage was to continuously test as the site was being developed. Upon styling the site I would check the application of the styling being applied within a live server window. This allowed me to confirm the styling was being applied correctly and the page was behaving as desired. Upon coding with JavaScript, I would check if the site is interactive just as it should.
+For the second stage of testing, I utilized a more formal structured approach and created a test schedule for each page. I then proceeded to run through the tests for each device making a note of any errors or differences to the designed behavior as I ran through the testing.
+I performed testing using following devices/browsers:
+
+* Desktop computer: 2560 x 1440p
+ * Google Chrome
+ * Microsoft Edge
+*	Samsung Tablet
+*	iPhone X: 828 x 1792 display
+ * iOS Safari
+* Andriod: 
+* I also utilized the Chrome and Microsoft edge developer tools to simulate the display on other devices and test the responsiveness of the site.
+
 
