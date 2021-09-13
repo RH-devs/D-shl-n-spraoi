@@ -1,4 +1,4 @@
-r# Dúshlán spraoi
+# Dúshlán spraoi
 Dúshlán spraoi means “Fun challenge” in English, it is an online quiz game designed to with the aim of helping migrants in Ireland or anyone looking at learning basic words in Irish in order to improve their knowledge about the Irish knowledge. 
 
 ## UX
@@ -22,5 +22,20 @@ The team created the website to promote the use of Irish words especially for ne
   * Being a first-time user, I would like to return to the homepage without using the back button on the browser in order to play again.
   * Being a first-time user, I want to know if my answers submitted are right or wrong by getting response indicator. 
   * Being a first-time user, I want to get an overall feedback message on how I performed in the quiz.
+
+__Design__
+
+* Font
+
+  * Google font family ‘Lato’ and 'sans-serif' was used on every page of the quiz website limiting with size variations and weight. I selected these fonts because it is readable and suits the purpose of the online quiz website. The three pages created have mix of both fonts. 
+
+ * Color Scheme
+
+I used a shade of white as the body background color and the shade of burgundy, black & blue for texts and buttons. The colors were selected from a collage using Coolors.
+
+ * Imagery
+ 
+There isn't much images in the quiz except for the image logo that was used alongside the name of the quiz game on the Homepage and icon used on the result page for feedback message based on the user's score.
+
 
 
