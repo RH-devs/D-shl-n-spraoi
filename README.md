@@ -1,7 +1,7 @@
 # Dúshlán spraoi
 Dúshlán spraoi means “Fun challenge” in English, it is an online quiz game designed to with the aim of helping migrants in Ireland or anyone looking at learning basic words in Irish in order to improve their knowledge about the Irish knowledge. 
 
-![Dúshlán spraoi](https://rh-devs.github.io/Dushlan-spraoi//blob/main/assets/images/Dushlannn.png)
+![Dúshlán spraoi](https://rh-devs.github.io/Dushlan-spraoi/blob/main/assets/images/Dushlannn.png)
 
 ## UX
 __Dúshlán spraoi__
@@ -53,7 +53,7 @@ ADD SCREENSHOT OF THE LOGO AND NAVIGATION BARS
 * The landing page
 
   * The landing includes image of Quiz logo, option to create a username and a play button.
-  * This section allows the visitor to register as a first-time user or play the quiz    without registering as a user.
+  * This section allows the visitor to register as a first-time user or play the quiz without registering as a user.
   * As first time user that signs up, a personalized welcome message is displayed before proceeding to play the quiz.
 
 SHARE MOCK UP OF THREE COLUMNS
