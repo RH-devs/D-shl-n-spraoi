@@ -123,6 +123,11 @@ body {
             background:rgba(136, 0, 21, 1);
         }
             
+        #goodCredit, #badCredit {
+            font-family: "Lato", sans-serif;
+            margin-bottom: 30px;
+            text-align: center;
+        }
 /*Media Queries*/
         @media screen and (max-width: 768px) {
             .question-container{
