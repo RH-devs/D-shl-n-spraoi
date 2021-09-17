@@ -168,7 +168,6 @@ options.forEach(option => {
           }
 
           if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-               return window.location.assign('/.result.html')
                if (finalScoreCounter > 500 && finalScoreCounter <= 1000) {
                     goodCredit.innerText = `Congratulations 😊!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, You are a Pro!`;
                } else { //less than or equal to 500
