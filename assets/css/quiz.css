@@ -127,8 +127,18 @@ body {
         @media screen and (max-width: 768px) {
             .question-container{
                 min-width: 30rem;
-            }
-            
+            }   
         }
-
+        @media screen and (max-width: 320px){
+             #progressBar{
+                width: 5rem;
+                
+             }
+             #headerdisplay{
+                font-size: 12px;
+             }
+             .question-container{
+                min-width: 5rem;
+            }
+            }
     
