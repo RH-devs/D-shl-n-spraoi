@@ -48,8 +48,9 @@ __Existing Features__
   * The site will feature three pages which includes the homepage, quiz page and the result/performance page. 
   * This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
  
+![QUIZ LOGO](https://rh-devs.github.io/Dushlan-spraoi/blob/main/assets/images/QUIZLOGO.PNG)
+![HOMEPAGE BUTTON](https://rh-devs.github.io/Dushlan-spraoi/blob/main/assets/images/NAVBUTTON.PNG)
 
-ADD SCREENSHOT OF THE LOGO AND NAVIGATION BARS
 * The landing page
 
   * The landing includes image of Quiz logo, option to create a username and a play button.
