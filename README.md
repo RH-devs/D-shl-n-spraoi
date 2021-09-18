@@ -112,20 +112,22 @@ I performed testing using following devices/browsers:
 
 __Validator Testing__
 * HTML
-*  There were no errors were returned when passing through the official W3C Validator.
-* Homepage
-[Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/index-html.PNG)
+
+   * There were no errors were returned when passing through the official W3C Validator.
+
+![Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/index-html.PNG)
+
 * Quiz page
 
 *	CSS
-*  No errors were returned when passing through the official (Jigsaw) Validator Link to results.
-[Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/validatorresult-styles.PNG)
+   * No errors were returned when passing through the official (Jigsaw) Validator Link to results.
+![Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/validatorresult-styles.PNG)
 
 * JAVASCRIPT
-*  No errors were returned when passing through the official validator (JSHINT) for JavaScript
+   * No errors were returned when passing through the official validator (JSHINT) for JavaScript
 
 * Lighthouse
-* I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report.
+   * I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report.
 
 ## Deployment
 * The site developed was deployed to GitHub page, below are the steps used for deployment:
