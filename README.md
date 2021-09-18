@@ -49,7 +49,7 @@ __Existing Features__
   * The site will feature three pages which includes the homepage, quiz page and the result/performance page. 
   * This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
  
- ![QUIZ LOGO](https://github.com/RH-devs/Dushlan-spraoi/workspace/Dushlan-spraoi/assets/images/QUIZLOGO.PNG)
+ ![QUIZ LOGO](https://github.com/RH-devs/Dushlan-spraoi/Dushlan-spraoi/assets/images/QUIZLOGO.PNG)
  ![HOMEPAGE BUTTON](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/NAVBUTTON.PNG)
 
 * The landing page
@@ -108,4 +108,30 @@ I performed testing using following devices/browsers:
 * Andriod: 
 * I also utilized the Chrome and Microsoft edge developer tools to simulate the display on other devices and test the responsiveness of the site.
 
+*	Bugs
+
+__Validator Testing__
+* HTML
+*  There were no errors were returned when passing through the official W3C Validator.
+* Homepage
+[Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/index-html.PNG)
+* Quiz page
+
+*	CSS
+*  No errors were returned when passing through the official (Jigsaw) Validator Link to results.
+[Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/validatorresult-styles.PNG)
+
+* JAVASCRIPT
+*  No errors were returned when passing through the official validator (JSHINT) for JavaScript
+
+* Lighthouse
+* I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report.
+
+## Deployment
+* The site developed was deployed to GitHub page, below are the steps used for deployment:
+* Go to the GitHub repository, click on to the settings tab.
+* Look through and select the pages tab under the settings menu on the left-hand side.
+* Under the GitHub Pages from the source section drop-down menu, select the main branch
+* Ensure the main branch is selected, once this is done the page will be automatically refreshed with a detailed chain-like display to indicate the successful deployment.
+* The live link can be found here – [Dúshlán spraoi](https://rh-devs.github.io/Dushlan-spraoi/)
 
