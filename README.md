@@ -123,13 +123,22 @@ __Validator Testing__
    * No errors were returned when passing through the official (Jigsaw) Validator Link to results.
 
 ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/validatorresult-styles.PNG)
+![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/validatorresult-quizpage.PNG)
 
 * JAVASCRIPT
    * No errors were returned when passing through the official validator (JSHINT) for JavaScript
 
+   ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/jshint1.PNG)
+   ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/jshint2.PNG)
+
 * Lighthouse
    * I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report.
 
+  ![Homepage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/homepage-mobile.PNG)
+  ![Homepage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/lighthouse-homepage.PNG)
+  ![Quizpage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/quizpage-mobile.PNG)
+  ![Quizpage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/assets/images/lightouse-quizpage.PNG)
+  
 ## Deployment
 * The site developed was deployed to GitHub page, below are the steps used for deployment:
 * Go to the GitHub repository, click on to the settings tab.
