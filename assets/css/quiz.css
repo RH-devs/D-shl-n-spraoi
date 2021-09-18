@@ -100,7 +100,7 @@ body {
         font-family: Lato sans-serif;
         }
         
-        .navButtons .button {
+        .navButtons .homepage-btn {
         background-color: rgb(136, 0, 21);
         border-radius: 5px;
         padding: 7px 15px;
@@ -111,7 +111,7 @@ body {
         font-family: Lato sans-serif;
         }
 
-        .button a {
+        .homepage-btn a {
             text-decoration: none;
             color: #fff;
         }
