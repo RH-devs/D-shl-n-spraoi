@@ -115,13 +115,14 @@ __Validator Testing__
 
    * There were no errors were returned when passing through the official W3C Validator.
 
-![Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/index-html.PNG)
+![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/index-html.PNG)
 
 * Quiz page
 
 *	CSS
    * No errors were returned when passing through the official (Jigsaw) Validator Link to results.
-![Validator result](https://github.com/RH-devs/Dushlan-spraoi/assets/images/validatorresult-styles.PNG)
+
+![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/validatorresult-styles.PNG)
 
 * JAVASCRIPT
    * No errors were returned when passing through the official validator (JSHINT) for JavaScript

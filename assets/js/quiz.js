@@ -174,9 +174,6 @@ options.forEach(option => {
                } else { //less than or equal to 500
                     badCredit.innerText = `Awwwwwww!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, Better Luck Next Time!`;
                }
-               let questAnswerDiv = document.getElementById('questAnswer');
-               questAnswerDiv.innerHTML = html;
-               loginArea.style.display = "none";
           }
 
           selectedOption.parentElement.classList.add(optionToApply); //This code adds the right answer to the parent element when the user gets the answer right
