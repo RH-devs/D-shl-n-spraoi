@@ -58,7 +58,6 @@ __Existing Features__
   * This section allows the visitor to register as a first-time user or play the quiz without registering as a user.
   * As first time user that signs up, a personalized welcome message is displayed before proceeding to play the quiz.
 
-SHARE MOCK UP OF THREE COLUMNS
 ![Personalised Message](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/Personalized.message.PNG)
 
 * The Footer
@@ -73,16 +72,22 @@ SHARE MOCK UP OF THREE COLUMNS
   * The quiz page consists of ten (10) questions and four (4) options and will display a question to the user at a time. It would display the next question immediately the user selects an option.
   * This section is valuable to the user as he/she will be able to easily a response color indicator notifying him/her that the option selected is right or wrong. For wrong answers, the indicator shows a shade of red color while it shows a shade of green color if the answer is right.
   * A progress bar styled using a shade of green is displayed at the top left alongside the question counter while the score styled using a shade of black is shown on the top right as user progressing with the quiz.
+  * This page will allow the user to see their total score. 
 
-* Result/Performance Page
+![Correct answer](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/correct-answer.PNG)
+![Wrong answer](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/wrong-answer.PNG)
+![ProogressBar and Score](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/ProgressBar-Score.PNG)
 
-   * This page will allow the user to see their total score. 
 
 ## Future Enhancements
 
 __Creating profiles for registered users__
 
 * This feature will help users document and track their progress from beginners to intermediate level to high-level proficiency journey once they are registered on the website. Introducing this section will allow users be able to document their scores, progress on learning the Irish language. The impact of this will enhance user experience.
+
+__Creating a result Page__
+
+* This will be a total performance page including the total number of correct and wrong questions answered with total score.
 
 __Special Effects__
 
