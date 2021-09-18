@@ -1,7 +1,8 @@
 # Dúshlán spraoi
 Dúshlán spraoi means “Fun challenge” in English, it is an online quiz game designed to with the aim of helping migrants in Ireland or anyone looking at learning basic words in Irish in order to improve their knowledge about the Irish knowledge. 
 
-[Dúshlán spraoi](https://rh-devs.github.io/Dushlan-spraoi/blob/main/assets/images/Dushlannn.png)
+![Dúshlán spraoi](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/webiste-mockup.png)
+
 
 ## UX
 __Dúshlán spraoi__
@@ -48,8 +49,8 @@ __Existing Features__
   * The site will feature three pages which includes the homepage, quiz page and the result/performance page. 
   * This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
  
- [QUIZ LOGO](https://rh-devs.github.io/Dushlan-spraoi/blob/main/assets/images/QUIZLOGO.PNG)
- [HOMEPAGE BUTTON](https://rh-devs.github.io/Dushlan-spraoi/blob/main/assets/images/NAVBUTTON.PNG)
+ ![QUIZ LOGO](https://github.com/RH-devs/Dushlan-spraoi/workspace/Dushlan-spraoi/assets/images/QUIZLOGO.PNG)
+ ![HOMEPAGE BUTTON](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/NAVBUTTON.PNG)
 
 * The landing page
 
@@ -58,13 +59,14 @@ __Existing Features__
   * As first time user that signs up, a personalized welcome message is displayed before proceeding to play the quiz.
 
 SHARE MOCK UP OF THREE COLUMNS
+![Personalised Message](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/Personalized.message.PNG)
 
 * The Footer
 
   * This section includes links to the relevant social media sites for Dushlan Spraoi and users will be able to open the links to a new tab for easy navigation.
   * The section also encourages the users to get connected via social media.
 
-   SHOW THE SOCIAL MEDIA ICONS
+![Footer](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/Dushlan-footer.PNG)
 
 * Quiz Page
 
