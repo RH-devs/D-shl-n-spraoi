@@ -170,9 +170,9 @@ options.forEach(option => {
           if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
 
                if (finalScoreCounter > 500 && finalScoreCounter <= 1000) {
-                    goodCredit.innerText = `Congratulations!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, You are a Pro!`;
+                    goodCredit.innerText = `Congratulations!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, Keep being a Pro!`;
                } else { //less than or equal to 500
-                    badCredit.innerText = `Awwwwwww!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, Better Luck Next Time!`;
+                    badCredit.innerText = `Awwwwwww!!! Your Final score is ${score} out of ${totalScoreOfGradePercent}, Try again to become a Pro!`;
                }
           }
 
