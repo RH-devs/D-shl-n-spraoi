@@ -99,14 +99,29 @@ For testing, I tried take it in two dimensions in testing the site. The first st
 For the second stage of testing, I utilized a more formal structured approach and created a test schedule for each page. I then proceeded to run through the tests for each device making a note of any errors or differences to the designed behavior as I ran through the testing.
 I performed testing using following devices/browsers:
 
-* Desktop computer: 2560 x 1440p
- * Google Chrome
- * Microsoft Edge
-*	Samsung Tablet
-*	iPhone X: 828 x 1792 display
- * iOS Safari
-* Andriod: 
-* I also utilized the Chrome and Microsoft edge developer tools to simulate the display on other devices and test the responsiveness of the site.
+__Component level Testing__
+*	Compatibility
+   * The website was tested and it is working on different browsers: Chrome, Internet Explorer/Microsoft Edge.
+
+* Homepage button
+   * The homepage button on the Quiz page directs users back to the homepage when clicked on.
+
+* Submit button
+   * The submit button on the home is working, a personalized welcome message shows up to the user immediately a name is inputted on the username field and clicks on the submit button.
+
+* The name input text is required, no password is required and it won't accept with empty data. No data is sent to any server.
+
+* Social media links (footer)
+   * The social media links are working and opening on a separate new tab on the browser.
+
+__User level Testing__
+
+My friends and family members were requested play the quiz using their own gadgets (mobiles, laptops, etc.) The website was also submitted in the peer-code-review channel on the CI Slack community.
+* Overall Navigation is okay
+
+* Website Responsiveness
+  * Issue reported with footer contents not aligned on smaller screens was corrected by changing the display to flex.
+  * Issue reported with Progress bar and Score conflicting with size on mobile screen was resolved by reducing the font-size.
 
 *	Bugs
 
@@ -119,31 +134,49 @@ __Validator Testing__
 
 * Quiz page
 
-*	CSS
-   * No errors were returned when passing through the official (Jigsaw) Validator Link to results.
+  *	CSS
+
+     * No errors were returned when passing through the official (Jigsaw) Validator Link to results.
 
 ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/validatorresult-styles.PNG)
 ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/validatorresult-quizpage.PNG)
 
 * JAVASCRIPT
+
    * No errors were returned when passing through the official validator (JSHINT) for JavaScript
 
    ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/jshint1.PNG)
    ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/jshint2.PNG)
 
 * Lighthouse
+
    * I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report.
 
   ![Homepage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/homepage-mobile.PNG)
   ![Homepage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/lighthouse-homepage.PNG)
   ![Quizpage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/quizpage-mobile.PNG)
-  ![Quizpage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/assets/images/lightouse-quizpage.PNG)
-  
+  ![Quizpage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/lightouse-quizpage.PNG)
+
 ## Deployment
+
 * The site developed was deployed to GitHub page, below are the steps used for deployment:
 * Go to the GitHub repository, click on to the settings tab.
 * Look through and select the pages tab under the settings menu on the left-hand side.
 * Under the GitHub Pages from the source section drop-down menu, select the main branch
 * Ensure the main branch is selected, once this is done the page will be automatically refreshed with a detailed chain-like display to indicate the successful deployment.
 * The live link can be found here – [Dúshlán spraoi](https://rh-devs.github.io/Dushlan-spraoi/)
+* The GitHub Repository can be found here - [Dúshlán spraoi](https://github.com/RH-devs/Dushlan-spraoi)
+
+## Credits
+__Content__
+
+* The page logo name “Dushlan Spraoi” was taken from Google being the Irish meaning for “Fun challenge” 
+* The icons used for the result page and in the footer were taken from Font Awesome.
+* I created the homepage and quiz page, wrote the questions and text for other pages by myself as they were basic Irish words I had learnt. 
+* I followed an online tutorial video from YouTube by Brian Design, Though the javascript has similarities, i was able to apply my own metrics to the quiz game. You can find video tutorial here [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEYP).
+* Some materials on CSS and JavaScript provided by w3schools.com was applied to work on the pages created on the website.
+
+## Media
+* The abstract image used for logo on each page was downloaded from [Pexels](https://www.pexels.com)
+
 
