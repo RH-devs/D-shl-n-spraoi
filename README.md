@@ -60,7 +60,7 @@ __Existing Features__
   * The site will feature three pages which includes the homepage, quiz page and the result/performance page. 
   * This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
  
- ![QUIZ LOGO](https://github.com/RH-devs/Dushlan-spraoi/Dushlan-spraoi/assets/images/QUIZLOGO.PNG)
+ ![QUIZ LOGO](https://github.com/RH-devs/Dushlan-spraoi/Dushlan-spraoi/blob/main/assets/images/QUIZLOGO.PNG)
  ![HOMEPAGE BUTTON](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/NAVBUTTON.PNG)
 
 * The landing page
@@ -87,7 +87,7 @@ __Existing Features__
 
 ![Correct answer](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/correct-answer.PNG)
 ![Wrong answer](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/wrong-answer.PNG)
-![ProogressBar and Score](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/ProgressBar-Score.PNG)
+![ProgressBar and Score](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/ProgressBar-Score.PNG)
 
 
 ## Future Enhancements
@@ -136,6 +136,8 @@ My friends and family members were requested play the quiz using their own gadge
 
 *	Bugs
 
+  * User has to click on the option "writing" before a response indicatior is shown. 
+
 __Validator Testing__
 * HTML
 
@@ -167,6 +169,16 @@ __Validator Testing__
   ![Homepage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/lighthouse-homepage.PNG)
   ![Quizpage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/quizpage-mobile.PNG)
   ![Quizpage Desktop](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/lightouse-quizpage.PNG)
+
+## Technologies Used
+
+__Languages Used__
+
+* HTML5
+
+* CSS3
+
+* JavaScript
 
 ## Deployment
 
