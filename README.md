@@ -9,6 +9,17 @@ __Dúshlán spraoi__
 
 The team created the website to promote the use of Irish words especially for new migrants or non-Irish people interested in learning basic words or keeping tab of their Irish knowledge. The users will be able acquire knowledge and same time enjoy it at their comfort zone since it’s built as a fun game. It’s allows anyone (both old and young) have access to it without limitation. The words used in creating the quiz are not explicit which enables children to also participate.
 
+## Wireframes
+
+The wireframes were designed using Balsamiq wireframes and it captures the two pages of the quiz will look.
+
+![Homepage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/WelcomePage-mobilescreen.png)
+![Homepage Desktop Tablet](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/WelcomePage-laptoptabletdesktop.png)
+![Quizpage Mobile](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/Quizpage-mobilescreen.png)
+![Quizpage Correct answers](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/Quizpage-correctanswers.png)
+![Quizpage Wrong answers](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/Quizpage-wronganswers.png)
+
+
 **User Stories**
 
 * As a returning user
