@@ -156,7 +156,7 @@ __Validator Testing__
 
 * JAVASCRIPT
 
-   * No errors were returned when passing through the official validator (JSHINT) for JavaScript
+   * Result below is for the official validator (JSHINT) for JavaScript.
 
    ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/jshint1.PNG)
    ![Validator result](https://github.com/RH-devs/Dushlan-spraoi/blob/main/assets/images/jshint2.PNG)
@@ -201,5 +201,10 @@ __Content__
 
 ## Media
 * The abstract image used for logo on each page was downloaded from [Pexels](https://www.pexels.com)
+
+## Acknowledgement
+
+* Brian Design's tutorial video on YouTube for helpful resources.
+* My mentor Aaron for his support.
 
 

@@ -16,14 +16,16 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 /*Home section*/
 .homepage {
     padding-top: 150px;
     padding-bottom: 150px;
     border-radius: 20px;
 }
+
 /*Logo and Login Area*/
 .homepage-container {
     width: 80%;
@@ -129,6 +131,7 @@ body {
     text-align: center;
     padding: 30px 30px;
 }
+
 /*Result section*/
 .resultContainer {
     width: 58rem;
@@ -148,9 +151,10 @@ body {
     margin-bottom: 30px;
     font-weight: 600;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
-    color: rgb(136, 0, 21);   
+    color: rgb(136, 0, 21);
 }
 
 .icon {
@@ -159,22 +163,23 @@ body {
     margin-bottom: 10px;
 }
 
-.complete-text{
+.complete-text {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: "Lato", sans-serif;
 }
+
 button {
-        background-color: rgb(136, 0, 21);
-        border-radius: 5px;
-        padding: 7px 15px;
-        color: #fff;
-        border: 0;
-        outline: none;
-        font-size: 20px;
-        font-family: "Lato", sans-serif;
-        margin-top: 20px;
+    background-color: rgb(136, 0, 21);
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
 }
 
 button a {
@@ -183,7 +188,8 @@ button a {
 }
 
 
-#goodCredit, #badCredit {
+#goodCredit,
+#badCredit {
     font-family: "Lato", sans-serif;
     margin-bottom: 10px;
 }
@@ -218,5 +224,3 @@ footer {
     font-size: 150%;
     text-align: center;
 }
-
-

@@ -11,6 +11,7 @@ body {
     display: flex;
     min-height: 110vh;
 }
+
 /*Logo and quiz section*/
 .logo {
     text-align: center;
@@ -19,11 +20,13 @@ body {
     font-weight: 600;
 
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     color: rgb(136, 0, 21);
-    
+
 }
+
 .questionContainer {
     width: 58rem;
     min-height: 30rem;
@@ -31,120 +34,126 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #666;
 }
+
 /*Headings - Scores and Progress bar section*/
 #headerdisplay {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    }
+}
 
-    .score {
-        border-radius: 100px;
-        padding: 8px 12px;
+.score {
+    border-radius: 100px;
+    padding: 8px 12px;
 
-        }
-     
-    #progressBar{
-        width: 15rem;
-        height: 1.5rem;
-        margin-top: 1rem;
-        border-radius: 100px;
-        padding: 8px 12px;
-        border: 0.1rem solid rgb(76, 145, 12);
-        overflow: hidden;
-            }
-     #fullProgressBar {
-         height: 100%;
-         width: 0%;
-         background: rgb(76, 145, 12);
-     }
+}
 
-     /*Question and Option sections*/
-    #question {
-        color:#3a3a3a;
-        border-radius:5px;
-        padding: 10px 15px;
-        text-align: center;
-        }
-      
+#progressBar {
+    width: 15rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 100px;
+    padding: 8px 12px;
+    border: 0.1rem solid rgb(76, 145, 12);
+    overflow: hidden;
+}
+
+#fullProgressBar {
+    height: 100%;
+    width: 0%;
+    background: rgb(76, 145, 12);
+}
+
+/*Question and Option sections*/
+#question {
+    color: #3a3a3a;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
 .option-container {
     display: flex;
     grid-template-columns: 1fr 1fr;
     margin: 30px 0;
     grid-gap: 15px;
-    }
-    
-    .option-container {
+}
+
+.option-container {
     color: #252525;
-    border-radius:5px;
-    border:1px solid; 
+    border-radius: 5px;
+    border: 1px solid;
     padding: 15px;
+}
+
+.option-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0;
+    transition: transform, 150ms;
+    transform: scale(1.03);
+}
+
+.answer-text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+.navButtons {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+
+.navButtons .homepage-btn {
+    background-color: rgb(136, 0, 21);
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.homepage-btn a {
+    color: #fff;
+}
+
+.rightOption {
+    background: rgb(44, 109, 1);
+}
+
+.wrongOption {
+    background: rgba(136, 0, 21, 1);
+}
+
+#goodCredit,
+#badCredit {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+    .question-container {
+        min-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #progressBar {
+        width: 5rem;
+
     }
 
-    .option-container:hover{
-            cursor: pointer;
-            box-shadow: 0 0.4rem 1.4rem 0;
-            transition: transform, 150ms;
-            transform: scale(1.03);
-        }
+    #headerdisplay {
+        font-size: 12px;
+    }
 
-     .answer-text {
-         font-family: "Lato", sans-serif;
-         font-size: 20px;
-     }   
-
-    .navButtons {
-        display:flex;
-        justify-content: center;
-        font-family: "Lato", sans-serif;
-        }
-        
-        .navButtons .homepage-btn {
-        background-color: rgb(136, 0, 21);
-        border-radius: 5px;
-        padding: 7px 15px;
-        color: #fff;
-        border: 0;
-        outline: none;
-        font-size: 20px;
-        font-family: "Lato", sans-serif;
-        text-decoration: none;
-        }
-
-        .homepage-btn a {
-            color: #fff;
-        }
-
-        .rightOption {
-            background: rgb(44, 109, 1);
-        }
-        .wrongOption {
-            background:rgba(136, 0, 21, 1);
-        }
-            
-        #goodCredit, #badCredit {
-            font-family: "Lato", sans-serif;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-/*Media Queries*/
-        @media screen and (max-width: 768px) {
-            .question-container{
-                min-width: 30rem;
-            }   
-        }
-        @media screen and (max-width: 320px){
-             #progressBar{
-                width: 5rem;
-                
-             }
-             #headerdisplay{
-                font-size: 12px;
-             }
-             .question-container{
-                min-width: 5rem;
-            }
-            }
-    
+    .question-container {
+        min-width: 5rem;
+    }
+}

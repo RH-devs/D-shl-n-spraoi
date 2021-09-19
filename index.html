@@ -10,60 +10,65 @@
 
     <title>Dúshlán Spraoi</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    
+
 </head>
 
 <body>
     <!--Logo and signup section-->
     <section class="homepage">
-    <div class="homepage-container">
-        <div class="logo-side">
-            <img src="assets/images/logo-img.jpg" alt="abtract-background" width="100" height="50" style="border:0;">
-        </div>
-        <div class="username-side">
-            <div id="home">
-            <div id="welcome"></div>
-            <form id="login-Area">
-            <h1>Ready to Challenge your Irish Knowledge?</h1>
-            <br>
-            <p>Create a username below to proceed.</p>
-            <br>
-            <input type="text" id="username" name="username" placeholder="Input your name" required>
-            <input type="submit" class="submit-Btn" value="Submit">
-            </form>
+        <div class="homepage-container">
+            <div class="logo-side">
+                <img src="assets/images/logo-img.jpg" alt="abtract-background" width="100" height="50"
+                    style="border:0;">
             </div>
-            <a href="quiz.html" id="playBtn" class="play-Btn">Play<i class="far fa-play-circle" aria-hidden="true"></i></a>
-    </div>
-    </div>
-</section>
+            <div class="username-side">
+                <div id="home">
+                    <div id="welcome"></div>
+                    <form id="login-Area">
+                        <h1>Ready to Challenge your Irish Knowledge?</h1>
+                        <br>
+                        <p>Create a username below to proceed.</p>
+                        <br>
+                        <input type="text" id="username" name="username" placeholder="Input your name" required>
+                        <input type="submit" class="submit-Btn" value="Submit">
+                    </form>
+                </div>
+                <a href="quiz.html" id="playBtn" class="play-Btn">Play<i class="far fa-play-circle"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
     <!--Footer Section-->
-  <footer>
-    <p id="copyright">Copyright © 2021 Dúshlán Spraoi</p>
-    <ul class="socialmedia">
+    <footer>
+        <p id="copyright">Copyright © 2021 Dúshlán Spraoi</p>
+        <ul class="socialmedia">
 
-      <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
-      </li>
-      <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-</footer>
-    <script>    
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                        class="fab fa-twitter-square"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script>
         //user's welcome and redirect section
         let loginArea = document.getElementById('login-Area');
-        
-        loginArea.addEventListener('submit', function(event) {
-          event.preventDefault();
-          let userName = document.getElementById('username').value; 
-          
-          let html = `
+
+        loginArea.addEventListener('submit', function (event) {
+            event.preventDefault();
+            let userName = document.getElementById('username').value;
+
+            let html = `
           <h1>Welcome ${userName}!!! Are you ready to challenge yourself?</h1>
-          ` ; 
-          let welcomeDiv = document.getElementById('welcome');
-          welcomeDiv.innerHTML = html;
-          loginArea.style.display = "none";
-        })   
-     </script> 
-     <!-- Font awesome script -->
+          `;
+            let welcomeDiv = document.getElementById('welcome');
+            welcomeDiv.innerHTML = html;
+            loginArea.style.display = "none";
+        })
+    </script>
+    <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
     <script src="assets/js/quiz.js"></script>
 </body>
