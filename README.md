@@ -196,7 +196,7 @@ __Content__
 * The page logo name “Dushlan Spraoi” was taken from Google being the Irish meaning for “Fun challenge” 
 * The icons used for the result page and in the footer were taken from Font Awesome.
 * I created the homepage and quiz page, wrote the questions and text for other pages by myself as they were basic Irish words I had learnt. 
-* I followed an online tutorial video from YouTube by Brian Design, Though the javascript has similarities, i was able to apply my own metrics to the quiz game. You can find video tutorial here [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEYP).
+* I followed an online tutorial video from YouTube by Brian Design and CodingNepal, Though the javascript has similarities, i was able to apply my own metrics to the quiz game. You can find video tutorial here [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEYP),[CodingNepal](https://www.youtube.com/watch?v=pQr4O1OITJo&list=LL&index=2)
 * Some materials on CSS and JavaScript provided by w3schools.com was applied to work on the pages created on the website.
 
 ## Media
@@ -204,7 +204,7 @@ __Content__
 
 ## Acknowledgement
 
-* Brian Design's tutorial video on YouTube for helpful resources.
+* Brian Design's and CodingNepal tutorial video on YouTube for helpful resources.
 * My mentor Aaron for his support.
 
 
